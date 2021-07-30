@@ -1,0 +1,80 @@
+/* CSS for index.html*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+h2{
+  font-family: "Inter";
+  font-size: 1.20rem;
+  font-weight: 600;
+  margin-top: 0px;
+  color: hsl(0, 0%, 100%);
+}
+
+.main-container {
+  background-color: hsl(244, 38%, 16%);
+  width: 75%;
+  height: 580px;
+  margin: auto;
+  position: relative;
+  top: 35px;
+}
+
+.img-container {
+  width: 100%;
+  position: absolute;
+}
+
+.img-discussion {
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
+}
+
+.transparent{
+  width: 100%;
+  height: 197.70px;
+  background-color: #a020f0;
+  opacity: 0.3;
+  position: absolute;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.des-container {
+  width: 100%;
+  height: 332.28px;
+  position: absolute;
+  top: 197.72px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: hsl(277, 64%, 61%);
+}
+
+.description{
+  font-family: 'Lexend Deca';
+  font-size: 0.70rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.8;
+}
+
+.count {
+  font-family: 'Inter';
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.category {
+  font-family: 'Inter';
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+}
